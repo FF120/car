@@ -1,0 +1,149 @@
+﻿生成启动时间为 2014/6/8 18:23:52。
+     1>项目“J:\竞赛\中软项目总合成\opencvtest3(6-8)\opencvtest3(终稿)\opencvtest3 - 副本 (3)\opencvtest\opencvtest.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“x64\Debug\智能车辆识别系统V1.0.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\Program Files (x86)\VC\bin\x86_amd64\CL.exe /c /I"D:\Program Files\Opencv\build\include\opencv" /I"D:\Program Files\Opencv\build\include\opencv2" /I"D:\Program Files\Opencv\build\include" /Zi /nologo /W3 /WX- /Od /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"x64\Debug\智能车辆识别系统V1.0.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         d:\Program Files (x86)\VC\bin\x86_amd64\CL.exe /c /I"D:\Program Files\Opencv\build\include\opencv" /I"D:\Program Files\Opencv\build\include\opencv2" /I"D:\Program Files\Opencv\build\include" /Zi /nologo /W3 /WX- /Od /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"x64\Debug\智能车辆识别系统V1.0.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt CarFlowCount.cpp CarPlatePosition.cpp CarPlateRec2.cpp CvvImage.cpp MyPicture.cpp opencvtest.cpp opencvtestDlg.cpp SetPreferencesDlg.cpp
+         SetPreferencesDlg.cpp
+     1>SetPreferencesDlg.cpp(218): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>SetPreferencesDlg.cpp(220): warning C4244: “参数”: 从“double”转换到“UINT”，可能丢失数据
+     1>SetPreferencesDlg.cpp(604): warning C4090: “=”: 不同的“__unaligned”限定符
+     1>SetPreferencesDlg.cpp(646): warning C4090: “=”: 不同的“__unaligned”限定符
+     1>SetPreferencesDlg.cpp(686): warning C4090: “=”: 不同的“__unaligned”限定符
+     1>SetPreferencesDlg.cpp(838): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>SetPreferencesDlg.cpp(840): warning C4244: “参数”: 从“double”转换到“UINT”，可能丢失数据
+         opencvtestDlg.cpp
+     1>d:\program files\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>j:\竞赛\中软项目总合成\opencvtest3(6-8)\opencvtest3(终稿)\opencvtest3 - 副本 (3)\opencvtest\CarFlowCount.h(22): warning C4091: “typedef ”: 没有声明变量时忽略“Hei_sta”的左侧
+     1>D:\Program Files\Opencv\build\include\opencv2/legacy/blobtrack.hpp(187): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>D:\Program Files\Opencv\build\include\opencv2/legacy/blobtrack.hpp(256): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\VC\include\string.h(110) : 参见“strcat”的声明
+     1>j:\竞赛\中软项目总合成\opencvtest3(6-8)\opencvtest3(终稿)\opencvtest3 - 副本 (3)\opencvtest\CarPlatePosition.h(22): warning C4091: “typedef ”: 没有声明变量时忽略“VP”的左侧
+     1>opencvtestDlg.cpp(150): warning C4101: “m_hMenu1”: 未引用的局部变量
+     1>opencvtestDlg.cpp(469): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>opencvtestDlg.cpp(470): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>opencvtestDlg.cpp(471): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>opencvtestDlg.cpp(471): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>opencvtestDlg.cpp(471): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>opencvtestDlg.cpp(831): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\VC\include\stdio.h(371) : 参见“sprintf”的声明
+         opencvtest.cpp
+     1>d:\program files\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\VC\include\stdio.h(234) : 参见“fopen”的声明
+         MyPicture.cpp
+         CvvImage.cpp
+         CarPlateRec2.cpp
+     1>d:\program files\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>D:\Program Files\Opencv\build\include\opencv2/legacy/blobtrack.hpp(187): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>D:\Program Files\Opencv\build\include\opencv2/legacy/blobtrack.hpp(256): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\VC\include\string.h(110) : 参见“strcat”的声明
+     1>j:\竞赛\中软项目总合成\opencvtest3(6-8)\opencvtest3(终稿)\opencvtest3 - 副本 (3)\opencvtest\CarFlowCount.h(22): warning C4091: “typedef ”: 没有声明变量时忽略“Hei_sta”的左侧
+     1>j:\竞赛\中软项目总合成\opencvtest3(6-8)\opencvtest3(终稿)\opencvtest3 - 副本 (3)\opencvtest\CarPlatePosition.h(22): warning C4091: “typedef ”: 没有声明变量时忽略“VP”的左侧
+         CarPlatePosition.cpp
+     1>d:\program files\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>D:\Program Files\Opencv\build\include\opencv2/legacy/blobtrack.hpp(187): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>D:\Program Files\Opencv\build\include\opencv2/legacy/blobtrack.hpp(256): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\VC\include\string.h(110) : 参见“strcat”的声明
+     1>j:\竞赛\中软项目总合成\opencvtest3(6-8)\opencvtest3(终稿)\opencvtest3 - 副本 (3)\opencvtest\CarFlowCount.h(22): warning C4091: “typedef ”: 没有声明变量时忽略“Hei_sta”的左侧
+     1>j:\竞赛\中软项目总合成\opencvtest3(6-8)\opencvtest3(终稿)\opencvtest3 - 副本 (3)\opencvtest\CarPlatePosition.h(22): warning C4091: “typedef ”: 没有声明变量时忽略“VP”的左侧
+     1>CarPlatePosition.cpp(765): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>CarPlatePosition.cpp(787): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+         CarFlowCount.cpp
+     1>d:\program files\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>j:\竞赛\中软项目总合成\opencvtest3(6-8)\opencvtest3(终稿)\opencvtest3 - 副本 (3)\opencvtest\CarFlowCount.h(22): warning C4091: “typedef ”: 没有声明变量时忽略“Hei_sta”的左侧
+     1>D:\Program Files\Opencv\build\include\opencv2/legacy/blobtrack.hpp(187): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>D:\Program Files\Opencv\build\include\opencv2/legacy/blobtrack.hpp(256): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\VC\include\string.h(110) : 参见“strcat”的声明
+     1>j:\竞赛\中软项目总合成\opencvtest3(6-8)\opencvtest3(终稿)\opencvtest3 - 副本 (3)\opencvtest\CarPlatePosition.h(22): warning C4091: “typedef ”: 没有声明变量时忽略“VP”的左侧
+     1>CarFlowCount.cpp(103): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>CarFlowCount.cpp(104): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>CarFlowCount.cpp(112): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>CarFlowCount.cpp(113): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>CarFlowCount.cpp(146): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>CarFlowCount.cpp(160): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>CarFlowCount.cpp(215): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>CarFlowCount.cpp(225): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>CarFlowCount.cpp(261): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>CarFlowCount.cpp(268): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>CarFlowCount.cpp(322): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>CarFlowCount.cpp(329): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>CarFlowCount.cpp(364): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>CarFlowCount.cpp(371): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>CarFlowCount.cpp(404): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>CarFlowCount.cpp(411): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>CarFlowCount.cpp(471): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>CarFlowCount.cpp(475): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>CarFlowCount.cpp(510): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>CarFlowCount.cpp(515): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>CarFlowCount.cpp(551): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>CarFlowCount.cpp(556): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>CarFlowCount.cpp(590): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>CarFlowCount.cpp(594): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>CarFlowCount.cpp(620): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>CarFlowCount.cpp(714): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>CarFlowCount.cpp(746): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>CarFlowCount.cpp(798): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>CarFlowCount.cpp(799): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+         Generating Code...
+     1>j:\竞赛\中软项目总合成\opencvtest3(6-8)\opencvtest3(终稿)\opencvtest3 - 副本 (3)\opencvtest\carflowcount.cpp(865): warning C4715: “CarFlowCount::count_aga”: 不是所有的控件路径都返回值
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /l"0x0804" /Ix64\Debug\ /nologo /fo"x64\Debug\opencvtest.res" opencvtest.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"x64\Debug\智能车辆识别系统V1.0.exe.embed.manifest.res" "x64\Debug\智能车辆识别系统V1.0_manifest.rc" 
+       Link:
+         d:\Program Files (x86)\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"J:\竞赛\中软项目总合成\opencvtest3(6-8)\opencvtest3(终稿)\opencvtest3 - 副本 (3)\x64\Debug\智能车辆识别系统V1.0.exe" /INCREMENTAL /NOLOGO "D:\Program Files\Opencv\build\x64\vc10\lib\opencv_core248d.lib" "D:\Program Files\Opencv\build\x64\vc10\lib\opencv_ml248d.lib" "D:\Program Files\Opencv\build\x64\vc10\lib\opencv_highgui248d.lib" "D:\Program Files\Opencv\build\x64\vc10\lib\opencv_imgproc248d.lib" "D:\Program Files\Opencv\build\x64\vc10\lib\opencv_legacy248d.lib" "D:\Program Files\Opencv\build\x64\vc10\lib\opencv_video248d.lib" "D:\Program Files\Opencv\build\x64\vc10\lib\opencv_calib3d248d.lib" "D:\Program Files\Opencv\build\x64\vc10\lib\opencv_contrib248d.lib" "D:\Program Files\Opencv\build\x64\vc10\lib\opencv_features2d248d.lib" "D:\Program Files\Opencv\build\x64\vc10\lib\opencv_flann248d.lib" "D:\Program Files\Opencv\build\x64\vc10\lib\opencv_gpu248d.lib" "D:\Program Files\Opencv\build\x64\vc10\lib\opencv_nonfree248d.lib" "D:\Program Files\Opencv\build\x64\vc10\lib\opencv_objdetect248d.lib" "D:\Program Files\Opencv\build\x64\vc10\lib\opencv_ocl248d.lib" "D:\Program Files\Opencv\build\x64\vc10\lib\opencv_photo248d.lib" "D:\Program Files\Opencv\build\x64\vc10\lib\opencv_ts248d.lib" /MANIFEST /ManifestFile:"x64\Debug\智能车辆识别系统V1.0.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"J:\竞赛\中软项目总合成\opencvtest3(6-8)\opencvtest3(终稿)\opencvtest3 - 副本 (3)\x64\Debug\智能车辆识别系统V1.0.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"J:\竞赛\中软项目总合成\opencvtest3(6-8)\opencvtest3(终稿)\opencvtest3 - 副本 (3)\x64\Debug\智能车辆识别系统V1.0.lib" /MACHINE:X64 x64\Debug\opencvtest.res
+         "x64\Debug\智能车辆识别系统V1.0.exe.embed.manifest.res"
+         x64\Debug\CarFlowCount.obj
+         x64\Debug\CarPlatePosition.obj
+         x64\Debug\CarPlateRec2.obj
+         x64\Debug\CvvImage.obj
+         x64\Debug\MyPicture.obj
+         x64\Debug\opencvtest.obj
+         x64\Debug\opencvtestDlg.obj
+         x64\Debug\SetPreferencesDlg.obj
+         x64\Debug\stdafx.obj
+         opencvtest.vcxproj -> J:\竞赛\中软项目总合成\opencvtest3(6-8)\opencvtest3(终稿)\opencvtest3 - 副本 (3)\x64\Debug\智能车辆识别系统V1.0.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"x64\Debug\智能车辆识别系统V1.0.exe.embed.manifest" /manifest "x64\Debug\智能车辆识别系统V1.0.exe.intermediate.manifest" "d:\Program Files (x86)\VC\Include\Manifest\dpiaware.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"x64\Debug\智能车辆识别系统V1.0.exe.embed.manifest.res" "x64\Debug\智能车辆识别系统V1.0_manifest.rc" 
+       LinkEmbedManifest:
+         d:\Program Files (x86)\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"J:\竞赛\中软项目总合成\opencvtest3(6-8)\opencvtest3(终稿)\opencvtest3 - 副本 (3)\x64\Debug\智能车辆识别系统V1.0.exe" /INCREMENTAL /NOLOGO "D:\Program Files\Opencv\build\x64\vc10\lib\opencv_core248d.lib" "D:\Program Files\Opencv\build\x64\vc10\lib\opencv_ml248d.lib" "D:\Program Files\Opencv\build\x64\vc10\lib\opencv_highgui248d.lib" "D:\Program Files\Opencv\build\x64\vc10\lib\opencv_imgproc248d.lib" "D:\Program Files\Opencv\build\x64\vc10\lib\opencv_legacy248d.lib" "D:\Program Files\Opencv\build\x64\vc10\lib\opencv_video248d.lib" "D:\Program Files\Opencv\build\x64\vc10\lib\opencv_calib3d248d.lib" "D:\Program Files\Opencv\build\x64\vc10\lib\opencv_contrib248d.lib" "D:\Program Files\Opencv\build\x64\vc10\lib\opencv_features2d248d.lib" "D:\Program Files\Opencv\build\x64\vc10\lib\opencv_flann248d.lib" "D:\Program Files\Opencv\build\x64\vc10\lib\opencv_gpu248d.lib" "D:\Program Files\Opencv\build\x64\vc10\lib\opencv_nonfree248d.lib" "D:\Program Files\Opencv\build\x64\vc10\lib\opencv_objdetect248d.lib" "D:\Program Files\Opencv\build\x64\vc10\lib\opencv_ocl248d.lib" "D:\Program Files\Opencv\build\x64\vc10\lib\opencv_photo248d.lib" "D:\Program Files\Opencv\build\x64\vc10\lib\opencv_ts248d.lib" /MANIFEST /ManifestFile:"x64\Debug\智能车辆识别系统V1.0.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"J:\竞赛\中软项目总合成\opencvtest3(6-8)\opencvtest3(终稿)\opencvtest3 - 副本 (3)\x64\Debug\智能车辆识别系统V1.0.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"J:\竞赛\中软项目总合成\opencvtest3(6-8)\opencvtest3(终稿)\opencvtest3 - 副本 (3)\x64\Debug\智能车辆识别系统V1.0.lib" /MACHINE:X64 x64\Debug\opencvtest.res
+         "x64\Debug\智能车辆识别系统V1.0.exe.embed.manifest.res"
+         x64\Debug\CarFlowCount.obj
+         x64\Debug\CarPlatePosition.obj
+         x64\Debug\CarPlateRec2.obj
+         x64\Debug\CvvImage.obj
+         x64\Debug\MyPicture.obj
+         x64\Debug\opencvtest.obj
+         x64\Debug\opencvtestDlg.obj
+         x64\Debug\SetPreferencesDlg.obj
+         x64\Debug\stdafx.obj
+         opencvtest.vcxproj -> J:\竞赛\中软项目总合成\opencvtest3(6-8)\opencvtest3(终稿)\opencvtest3 - 副本 (3)\x64\Debug\智能车辆识别系统V1.0.exe
+       FinalizeBuildStatus:
+         正在删除文件“x64\Debug\智能车辆识别系统V1.0.unsuccessfulbuild”。
+         正在对“x64\Debug\智能车辆识别系统V1.0.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“J:\竞赛\中软项目总合成\opencvtest3(6-8)\opencvtest3(终稿)\opencvtest3 - 副本 (3)\opencvtest\opencvtest.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:15.66
